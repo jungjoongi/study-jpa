@@ -1,6 +1,10 @@
-package com.jungjoongi.study.jpa;
 
-import javax.persistence.*;
+package study.jpa.ex04;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 
 public class Step01 {
     public static void main(String[] args) {
@@ -11,11 +15,7 @@ public class Step01 {
         tx.begin();
 
         try {
-            Member member = new Member();
-            member.setId(1L);
-            member.setName("이름");
 
-            em.persist(member);
             tx.commit();
         } catch (Exception e) {
             tx.rollback();

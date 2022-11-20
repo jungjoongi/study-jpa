@@ -1,5 +1,5 @@
 
-package com.jungjoongi.study.jpa;
+package study.jpa.ex03;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

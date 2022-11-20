@@ -1,4 +1,4 @@
-package com.jungjoongi.study.jpa;
+package study.jpa.ex03;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
